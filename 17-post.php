@@ -1,0 +1,35 @@
+<?php
+
+include "includes/header.php";
+
+
+?>
+<h2>Formulario con post</h2>
+<form action="recibir-post.php" method="post">
+    <div class="campoForm">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre">
+    </div>
+    <div class="campoForm">
+        <label for="apellidos">Nombre</label>
+        <input type="text" name="apellidos">
+    </div>
+    <div class="campoForm">
+        <input type="submit" value="Enviar datos">
+    </div>
+</form>
+
+
+
+<?php
+
+
+
+
+
+
+
+
+
+
+include "includes/footer.php";

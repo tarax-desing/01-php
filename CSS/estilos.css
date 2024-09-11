@@ -1,0 +1,118 @@
+body {
+  background-color: rgb(140, 206, 226);
+}
+h1,
+p,
+a {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: block;
+  line-height: 0;
+  color: white;
+}
+.container {
+  max-width: 1200px;
+  margin: 5rem auto 0 auto;
+  color: white;
+}
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  border-bottom: 1px solid #333;
+}
+a {
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 0.2rem;
+  box-shadow: 1px 1px 3px 0px rgb(65, 65, blue);
+}
+a :hover {
+  background-color: aquamarine;
+}
+.articulo {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+article {
+  background-color: rgb(105, 104, 102);
+  border: 1 solid black;
+  border-radius: 0.2rem;
+  box-shadow: 1px 2px 3px 0.2px;
+  padding: 1rem;
+}
+
+.rebajado {
+  background-color: red;
+  border-bottom: #333;
+  color: white;
+  padding: 1rem;
+}
+.campoForm {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #5d0143;
+  background-color: bisque;
+  border-radius: 5px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th,
+td {
+  background-color: burlywood;
+  border: 1px solid #262525;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #aae96f;
+  font-weight: bold;
+}
+
+td {
+  border-top: 1px solid #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+th:nth-child(1) {
+  width: 20%;
+}
+
+th:nth-child(2) {
+  width: 20%;
+}
+
+th:nth-child(3) {
+  width: 20%;
+}
+
+th:nth-child(4) {
+  width: 20%;
+}
+
+th:nth-child(5) {
+  width: 20%;
+}
